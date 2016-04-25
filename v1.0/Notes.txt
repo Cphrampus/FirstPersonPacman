@@ -1,0 +1,17 @@
+4/7(CODY):
+	Added chest and basic animation of opening, along with "popup" for the shift to move back
+	Added triggers to hide and show obscuring features, may be useful, good for proof of concept at least
+	Not really sure what to do with the second hall, just there now so I could do testing
+	
+	/* Mahimna:
+		 Nice work with the animation of the chest. It looks very smooth.	
+	*/
+
+	
+4/10(MAHIMNA):
+	Added a little status bar to the top of the screen. It currently contains health and number of items. We could modify this later as required.
+	Created a dummy throwable basketball object. To throw press Q. I was thinking we could use this to hit the enemies.
+	Made the box collison pop up a text renderer so that the "hint" looks nicer.
+
+
+	
