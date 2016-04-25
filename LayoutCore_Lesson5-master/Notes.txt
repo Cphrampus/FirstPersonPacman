@@ -1,0 +1,37 @@
+FInished maze, should be symmetric, but not perfect yet
+Teleport works, the space is just there to have something to stop the player, may or may not be good to keep, we'll see
+
+
+4/13: MAHIMNA
+	Made Models for Ghost and added a few default movements to them. Addeed a few coins to the maze. Need to add more to fill the entire maze.
+
+4/14: MAHIMNA
+	Added a mantinee for a ghost to loop around the walls. I think instead of making implementing A* algorithm, it might be better to just work with mantinees.
+	Have not tested in  VR though. Make sure it looks good.
+
+
+4/20: CODY
+	Added menu
+	Added pause capability, mapped to backspace, doesn't hold, will just continue after a couple of seconds, wonder if this has to do with manintees not pausing well?
+		might want to delete, unless we can figure out how to make it stay
+	allowed mouse control and disabled auto-move for testing
+
+4/21: CODY
+	Added game over and reset to menu on death, pausing still isn't working well
+	added score and life labels and life counter
+	tried added fade to black on game end, did the same thing as menu, might have missed something..
+	fixed jump powerup so you can collect it
+	added congrats if you collect all coins, tested and this will end the game, can open new level
+	Coins made a little bigger, can be hard to actually know if you get them or not
+	should add music, pacman music is in a new folder, couldn't import them though...
+
+4/22: MAHIMNA
+	Got the pause button working.
+	Added another level (Just the skeleton). Still have to update the locations of the coins and powerups
+	Added some vector math to the non matinee ghosts so that they can start out from any direcrtion
+ 
+4/23: MAHIMNA
+	Converted the audio files to the proper format and imported them.
+	Made Level 2 a lot cleaner and added transition between the levels
+	Fixed the end game transition.
+	
